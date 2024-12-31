@@ -49,19 +49,19 @@ _enabled_editors:
 _editables:
   text:
     allow_custom_markup: true
-    remove_custom_markup: false
+    remove_custom_markup: true
     bold: true
-    copyformatting:
-    italic:
-    link:
+    copyformatting: true
+    italic: true
+    link: true
     paths:
-    redo:
-    removeformat:
-    strike:
-    subscript:
-    superscript:
-    underline:
-    undo:
+    redo: true
+    removeformat: true
+    strike: true
+    subscript: true
+    superscript: true
+    underline: true
+    undo: true
   content:
     allow_custom_markup: true
     remove_custom_markup: false
