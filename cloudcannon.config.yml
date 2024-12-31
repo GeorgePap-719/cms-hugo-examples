@@ -50,7 +50,7 @@ _editables:
   text:
     allow_custom_markup: true
     remove_custom_markup: false
-    bold:
+    bold: true
     copyformatting:
     italic:
     link:
