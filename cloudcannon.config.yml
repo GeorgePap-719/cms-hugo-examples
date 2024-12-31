@@ -48,7 +48,7 @@ _enabled_editors:
   - data
 _editables:
   text:
-    allow_custom_markup: true
+    allow_custom_markup: false
     remove_custom_markup: true
     bold: true
     copyformatting: true
@@ -63,9 +63,9 @@ _editables:
     underline: true
     undo: true
   content:
-    allow_custom_markup: true
-    remove_custom_markup: false
-    blockquote:
+    allow_custom_markup: false
+    remove_custom_markup: true
+    blockquote: true
     bold: true
     bulletedlist: true
     center:
@@ -73,7 +73,7 @@ _editables:
     copyformatting: true
     embed: true
     expandable: true
-    format:
+    format: p, h1, h2, h3, h4, h5, pre, address, div
     height:
     horizontalrule: true
     image: true
