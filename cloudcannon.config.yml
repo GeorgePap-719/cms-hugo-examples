@@ -100,10 +100,24 @@ _editables:
     underline:
     undo:
     width:
+  image:
+    expandable: true
+    height:
+    image_size_attributes: true
+    mime_type: image/png
+    paths:
+    resize_style:
+    width:
+  link:
+    paths:
 _snippets_imports:
   hugo:
     exclude:
       - hugo_instagram
+source_editor:
+  tab_size: 2
+  theme: monokai
+  show_gutter: true
 timezone: Europe/Athens
 markdown:
   engine: commonmark
