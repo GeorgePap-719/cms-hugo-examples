@@ -52,6 +52,17 @@ collections_config:
         name:
         icon: notes
         preview:
+          text:
+          subtext:
+          icon:
+          icon_color:
+          image:
+          metadata:
+            - text:
+              icon:
+              icon_color:
+              image:
+          gallery:
         _editables:
         _enabled_editors:
         _inputs:
