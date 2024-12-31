@@ -14,7 +14,7 @@ collections_config:
     disable_file_actions: false
   pages:
     path: content/home
-    glob:
+    glob: []
     name:
     singular_name:
     icon: notes
@@ -46,6 +46,60 @@ _enabled_editors:
   - visual
   - content
   - data
+_editables:
+  text:
+    allow_custom_markup: true
+    remove_custom_markup: false
+    bold:
+    copyformatting:
+    italic:
+    link:
+    paths:
+    redo:
+    removeformat:
+    strike:
+    subscript:
+    superscript:
+    underline:
+    undo:
+  content:
+    allow_custom_markup: false
+    remove_custom_markup: false
+    blockquote:
+    bold:
+    bulletedlist:
+    center:
+    code:
+    copyformatting:
+    embed:
+    expandable:
+    format:
+    height:
+    horizontalrule:
+    image:
+    image_size_attributes: true
+    indent:
+    italic:
+    justify:
+    left:
+    link:
+    mime_type:
+    numberedlist:
+    outdent:
+    paths:
+    redo:
+    removeformat:
+    resize_style:
+    right:
+    snippet:
+    strike:
+    styles:
+    subscript:
+    superscript:
+    table:
+    underline:
+    undo:
+    width:
 _snippets_imports:
   hugo:
     exclude:
