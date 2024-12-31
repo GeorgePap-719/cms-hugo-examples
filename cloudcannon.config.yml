@@ -13,7 +13,7 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   pages:
-    path:
+    path: content/home
     glob:
     name:
     singular_name:
@@ -22,12 +22,15 @@ collections_config:
     disable_url: false
     include_developer_files:
     documentation:
-    description:
+    description: ''
     preview:
     sort:
     sort_options:
     _editables:
     _enabled_editors:
+      - visual
+      - content
+      - data
     _inputs:
     _select_data:
     _structures:
@@ -39,6 +42,10 @@ collections_config:
     new_preview_url:
     schemas:
     schema_key:
+_enabled_editors:
+  - visual
+  - content
+  - data
 _snippets_imports:
   hugo:
     exclude:
