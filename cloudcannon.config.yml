@@ -63,42 +63,42 @@ _editables:
     underline:
     undo:
   content:
-    allow_custom_markup: false
+    allow_custom_markup: true
     remove_custom_markup: false
     blockquote:
-    bold:
-    bulletedlist:
+    bold: true
+    bulletedlist: true
     center:
-    code:
-    copyformatting:
-    embed:
-    expandable:
+    code: true
+    copyformatting: true
+    embed: true
+    expandable: true
     format:
     height:
-    horizontalrule:
-    image:
+    horizontalrule: true
+    image: true
     image_size_attributes: true
-    indent:
-    italic:
+    indent: true
+    italic: true
     justify:
     left:
-    link:
-    mime_type:
-    numberedlist:
-    outdent:
+    link: true
+    mime_type: image/png
+    numberedlist: true
+    outdent: true
     paths:
-    redo:
-    removeformat:
+    redo: true
+    removeformat: true
     resize_style:
     right:
-    snippet:
-    strike:
+    snippet: true
+    strike: true
     styles:
-    subscript:
-    superscript:
-    table:
-    underline:
-    undo:
+    subscript: true
+    superscript: true
+    table: true
+    underline: true
+    undo: true
     width:
   image:
     expandable: true
