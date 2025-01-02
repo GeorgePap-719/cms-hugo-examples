@@ -13,3 +13,7 @@ Feels like way too much commitment at this point.
 - Has a visual-editor.
 - Integrates nice with hugo and github.
 
+## decapcms
+
+Minimal choice but requires something like netlify for full integration.
+Similar choice as above overall.
