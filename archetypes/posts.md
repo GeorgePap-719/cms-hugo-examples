@@ -2,13 +2,18 @@
 date = '{{ .Date }}'
 draft = false
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-author = '{{< param authorName >}}'
+author = ""
+description = ""
+notes = ""
 +++
 
 ## Pre intro
+The {{< param author >}} wrote a post about {{< param title >}}
 
 ## Intro
 
+{{< param description >}}
+
 ## Notes
 
-Additional information to clarify as needed.
+{{< param notes >}}
