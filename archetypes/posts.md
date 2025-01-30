@@ -2,9 +2,9 @@
 date = '{{ .Date }}'
 draft = false
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-author = ""
-description = ""
-notes = ""
+author = ''
+description = ''
+notes = ''
 +++
 
 ## Pre intro
