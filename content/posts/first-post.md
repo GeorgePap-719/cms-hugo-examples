@@ -2,10 +2,9 @@
 title = "My First Post"
 date = 2024-01-14T06:07:07.000Z
 draft = false
-about = "some pre intro paragraph"
+about = "This should be the first poc "
 author = "george"
 +++
-
 ## Introduction
 
 This is **bold** text, and this is *emphasized* text.
