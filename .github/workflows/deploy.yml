@@ -11,15 +11,15 @@ env:
   AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
   ARTIFACTS_BUCKET: pfxlandings
 
-  jobs:
-    build:
-      runs-on: "ubuntu-20.04"
-      steps:
-        - name: "checkout source"
-          uses: actions/checkout@v3
-        - name: "install hugo"
-          run: apt install hugo
+jobs:
+  build:
+    runs-on: "ubuntu-20.04"
+    steps:
+      - name: "checkout source"
+        uses: actions/checkout@v3
+      - name: "install hugo"
+        run: apt install hugo
                 hugo build
-        - name: "publish"
-          run: aws s3 cp ./public/posts/posthtml/index.html
+      - name: "publish"
+        run: aws s3 cp ./public/posts/posthtml/index.html
 
