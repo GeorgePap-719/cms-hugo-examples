@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v3
       - name: "install hugo"
         run: |
-          apt install hugo
+          sudo apt install hugo
           hugo build
       - name: "publish"
         run: aws s3 cp ./public/posts/posthtml/index.html s3://${{ env.ARTIFACTS_BUCKET }}/blog/σπίτι/foo  --content-type text/html
