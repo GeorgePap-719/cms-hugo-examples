@@ -17,4 +17,6 @@ dasd`dsa`dsaa
 
 The {{< param author >}} wrote a post about {{< param about >}}
 
+{{&lt; param Author &gt;}}
+
 #### More
