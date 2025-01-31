@@ -22,4 +22,4 @@ jobs:
           apt install hugo
           hugo build
       - name: "publish"
-        run: aws s3 cp ./public/posts/posthtml/index.html s3://${{ ARTIFACTS_BUCKET }}/blog/σπίτι/foo  --content-type text/html
+        run: aws s3 cp ./public/posts/posthtml/index.html s3://${{ env.ARTIFACTS_BUCKET }}/blog/σπίτι/foo  --content-type text/html
